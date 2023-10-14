@@ -1,0 +1,10 @@
+
+<button (click)="visualizar()" class="btn-success">Tarjetas/Lista</button>
+
+<div *ngIf="vistaTarjetas == true; else lista">
+    <app-lista-productos></app-lista-productos>
+</div>
+
+<ng-template #lista>
+    <app-lista-productos2></app-lista-productos2>
+</ng-template>

@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+#home{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+#titulo{
+    margin-top: 40px;
+}
